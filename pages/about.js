@@ -14,7 +14,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="/about">About</a>
+          Welcome to{' '}
+          <Link href="/about">
+            <a>About</a>
+          </Link>
         </h1>
 
         <p className={styles.description}>Navigate between pages to see page transition.</p>
